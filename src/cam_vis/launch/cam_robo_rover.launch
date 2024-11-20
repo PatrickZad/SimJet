@@ -1,0 +1,4 @@
+<launch>
+<node pkg="cam_ps" name="tgt_select" type="tgt_search.py" output="screen"/>
+<node pkg="cam_ps" name="tgt_vis" type="tgt_vis.py" output="screen"/>
+</launch>
